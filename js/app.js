@@ -67,7 +67,6 @@ function init() {
                   
                  entries.forEach(function(entry) {
                      container.append(entryTemplate(entry));
-                 //    console.log(entryTemplate(entry))
                  });
                  if (cb) {
                      cb();
